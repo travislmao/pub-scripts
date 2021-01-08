@@ -33,7 +33,7 @@ function Library:CreateMain()
 	
 	local GamerLibrary = {}
 	
-	function GamerLibrary:NewButton(name,buttonname)
+	function GamerLibrary:NewButton(name)
 		TextButton.Parent = Frame
 		TextButton.BackgroundColor3 = Color3.fromRGB(0, 161, 193)
 		TextButton.Size = UDim2.new(0, 92, 0, 24)
@@ -41,7 +41,6 @@ function Library:CreateMain()
 		TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 		TextButton.TextSize = 14.000
 		TextButton.Text = name
-		TextButton.Name = buttonname
 	end
 	
 	return GamerLibrary;
