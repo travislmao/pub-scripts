@@ -20,7 +20,7 @@ function Library:CreateMain()
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	
 	function onKeyPress(inputObject, gameProcessedEvent)
-		if inputObject.KeyCode == Enum.KeyCode.Control then
+		if inputObject.KeyCode == Enum.KeyCode.RightControl then
 			if Frame.Visible == false then
 				Frame.Visible = true
 			else
